@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "641823042965",
+    "firebase_url": "https://galaxywoldwide.firebaseio.com",
+    "project_id": "galaxywoldwide",
+    "storage_bucket": "galaxywoldwide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641823042965:android:098202a4acd957ef4d1a9c",
+        "android_client_info": {
+          "package_name": "com.aslshippinglines"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641823042965-fhjvj9chgs5jjcrfu48lrsihipjpagai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoyexb52tzIq4tJYAlzJ9IZbiH37j3hao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641823042965-fhjvj9chgs5jjcrfu48lrsihipjpagai.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "641823042965-d1f840jnjljk6gug4sq1r6fntkhhh1ku.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gwwshipping.galaxy"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641823042965:android:7d2c86e51e32d950",
+        "android_client_info": {
+          "package_name": "com.galaxyworldwide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641823042965-n41vfrr3tkgs8o8u0vi08uhgf0nq2aps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.galaxyworldwide",
+            "certificate_hash": "49f78c2a3f198a4607740e5a6619e4e5ec5742e0"
+          }
+        },
+        {
+          "client_id": "641823042965-rik5skaotihcj8514rfvujcta4tctnhk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.galaxyworldwide",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "641823042965-fhjvj9chgs5jjcrfu48lrsihipjpagai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoyexb52tzIq4tJYAlzJ9IZbiH37j3hao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641823042965-fhjvj9chgs5jjcrfu48lrsihipjpagai.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "641823042965-d1f840jnjljk6gug4sq1r6fntkhhh1ku.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gwwshipping.galaxy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
