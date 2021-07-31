@@ -1,0 +1,14 @@
+const AllNavMenuHeadingTxt = {
+    DASHBAORD: 'DASHBOARD',
+    VEHCILE: 'VEHICLE',
+    EXPORT:'CONTAINER',
+    CONTAINER: 'CONTAINER',
+    INVOICE: 'INVOICE',
+    CONTACT_US:'CONTACT US',
+    SERVICE:'SERVICES',
+    WISH:'ANNOUNCEMENT',
+    LOCATION:'OUR LOCATION',
+    MY_PROFILE: 'MY PROFILE',
+    LOG_OUT: 'LOG OUT'
+}
+export default AllNavMenuHeadingTxt;

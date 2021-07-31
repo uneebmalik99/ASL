@@ -1,0 +1,277 @@
+if (index == 0) {
+            return <View>
+                {/* <Elavation
+                    elevation={4}
+                    style={{ width: deviceWidth, height: 50, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
+                >
+                    <Text style={{ flex: 1, fontFamily: AppFonts.SourceSansProSemiBold, fontSize: 15, color: AppColors.textColor, }}>{item.tabTitle}</Text>
+                </Elavation> */}
+                <Text style={styles.appDetailTitle}>{item.tabTitle}</Text>
+
+                <Elavation
+                    elevation={4}
+                    style={{ width: deviceWidth * 0.95, backgroundColor: AppColors.white, marginBottom: 7, marginLeft: 10, marginRight: 10, marginTop: 5, marginBottom: 5, borderRadius: 10, padding: 10 }}
+                >
+                    <View style={{ paddingLeft: 10, paddingRight: 10 }}>
+                        {/* <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Customer Name : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.customerName}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} /> */}
+
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Lot NO : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.lotNo}</Text>
+                        </View>
+
+
+                        <View style={styles.dividerStyleView} />
+
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Make : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.make}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Model : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.model}</Text>
+                        </View>
+
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Year : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.year}</Text>
+                        </View>
+
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Vin : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.vin}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Buyer NO : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.buyerNo}</Text>
+                        </View>
+
+
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Location : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.vehicleLocation}</Text>
+                        </View>
+
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Keys : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.keys}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>{'Towing ' + '&' + ' Titles'} : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.towing_titles}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Delivered Date : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.deliveredDate}</Text>
+                        </View>
+
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Tow From : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.towLocation}</Text>
+                        </View>
+
+
+
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Title Type : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.titleType}</Text>
+
+
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+
+                        {/* <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Tow Amount : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.towAmount}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Storage : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.storage}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} /> */}
+
+                        {/* <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Towing Date : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.towingDate}</Text>
+                        </View> */}
+
+                        {/* <View style={styles.dividerStyleView} /> */}
+
+                        {/* <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Title Status : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.titleStatus}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} /> */}
+
+                        {/* <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Title Amount : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.titleAmount}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} /> */}
+
+                        {/* <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Title NO : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.titleNo}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} /> */}
+
+                        {/* <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Title State : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.titleState}</Text>
+                        </View> */}
+                    </View>
+                </Elavation>
+            </View>
+
+        } else if (index == 1 || isCallingWithoutLogin != true) {
+            return <View>
+                <Text style={styles.appDetailTitle}>{item.tabTitle}</Text>
+                <Elavation
+                    elevation={4}
+                    style={styles.dataChildViewElavationContainer}
+                >
+                    <View style={{ paddingLeft: 10, paddingRight: 10 }}>
+                        {/* <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Status : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.status}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} /> */}
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Loaded from : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.lodedForm}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Export Date : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.exportDate}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>ETA : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.eta}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+
+                        {/* <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Booking NO : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.bookingNo}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} /> */}
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Container NO : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.containerNo}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Size : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.size}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+
+                        {/* <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Ar NO : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.arNo}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} /> */}
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Destination : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.destination}</Text>
+                        </View>
+
+                    </View>
+                </Elavation>
+            </View>
+        } 
+        else if (index == 2 || isCallingWithoutLogin != true) {
+            return <View>
+                <Text style={styles.appDetailTitle}>{item.tabTitle}</Text>
+                <Elavation
+                    elevation={4}
+                    style={styles.dataChildViewElavationContainer}
+                >
+                    <View style={{ paddingLeft: 10, paddingRight: 10 }}>
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Invoice Amount : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.invoiceAmount}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Paid Amount : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.paidAmount}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+
+                        <View style={styles.detailMainViewStyle}>
+                            <Text style={styles.detailHeadingTxtStyle}>Balance Amount : </Text>
+                            <Text style={styles.detailValueTxtStyle}>{item.totalAmount}</Text>
+                        </View>
+
+                        <View style={styles.dividerStyleView} />
+                    </View>
+                </Elavation>
+            </View>
+        }
